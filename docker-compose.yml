@@ -9,7 +9,7 @@ services:
       - mariadb-nextcloud:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=admin
-      - MYSQL_PASSWORD=bolson
+      - MYSQL_PASSWORD=password
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
 
